@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800" prefWidth="800"
+      xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" >
+    <children>
+        <Button fx:id="backToMenuButton" layoutX="350" layoutY="10" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0"  text="Back to menu" />
+        <Button fx:id="oneButton" layoutX="315" layoutY="620" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="1" />
+        <Button fx:id="twoButton" layoutX="375" layoutY="620" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="2" />
+        <Button fx:id="threeButton" layoutX="435" layoutY="620" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="3" />
+        <Button fx:id="fourButton" layoutX="315" layoutY="680" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="4" />
+        <Button fx:id="fiveButton" layoutX="375" layoutY="680" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="5" />
+        <Button fx:id="sixButton" layoutX="435" layoutY="680" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="6" />
+        <Button fx:id="sevenButton" layoutX="315" layoutY="740" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="7" />
+        <Button fx:id="eightButton" layoutX="375" layoutY="740" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="8" />
+        <Button fx:id="nineButton" layoutX="435" layoutY="740" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" text="9" />
+        <Button fx:id="checkBoardButton" layoutX="20" layoutY="700" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" />
+        <Button fx:id="saveButton" layoutX="630" layoutY="700" mnemonicParsing="false" prefHeight="50.0" prefWidth="150.0" />
+        <Canvas fx:id="canvas" height="450.0" layoutX="150.0" layoutY="50.0" width="450.0" />
+    </children>
+</Pane>
